@@ -18,7 +18,7 @@ polka()
     res.end();
   })
   .get("/quote", async (req, res) => {
-    res.writeHead(400, {
+    res.writeHead(200, {
       "Content-Type": "application/json"
     });
 
