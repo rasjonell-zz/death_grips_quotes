@@ -2,7 +2,7 @@ const polka = require("polka");
 const fetch = require("node-fetch");
 
 const URL =
-  "https://gist.githubusercontent.com/rasjonell/8894daf43187d6af2043d6a53a6445b4/raw/5cd9c71c6ed03d986b8bf27d7845c3128b97ff70/quotes.json";
+  "https://gist.githubusercontent.com/rasjonell/8894daf43187d6af2043d6a53a6445b4/raw/a773b584e29bdf69a9592d397f67ee6c1d214b0d/quotes.json";
 
 const getRandomQuote = async () => {
   const result = await fetch(URL);
